@@ -1,0 +1,61 @@
+[ {
+  "uid" : "dfe661a405ddd889",
+  "name" : "test_addlock",
+  "time" : {
+    "start" : 1652969407390,
+    "stop" : 1652969421700,
+    "duration" : 14310
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79fbf592110319e5",
+  "name" : "test_changelock",
+  "time" : {
+    "start" : 1652969421763,
+    "stop" : 1652969426931,
+    "duration" : 5168
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cb58f6d77c21ba66",
+  "name" : "test_virtualkey",
+  "time" : {
+    "start" : 1652969427672,
+    "stop" : 1652969434431,
+    "duration" : 6759
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "54491e56775e0207",
+  "name" : "test_Login",
+  "time" : {
+    "start" : 1652969370272,
+    "stop" : 1652969395886,
+    "duration" : 25614
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "226f60c1f2f71c0a",
+  "name" : "test_deletelock",
+  "time" : {
+    "start" : 1652969434680,
+    "stop" : 1652969441730,
+    "duration" : 7050
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1460b09197a20e6a",
+  "name" : "test_unlock",
+  "time" : {
+    "start" : 1652969396233,
+    "stop" : 1652969407361,
+    "duration" : 11128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

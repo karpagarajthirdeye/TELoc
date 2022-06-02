@@ -1,0 +1,106 @@
+{
+  "uid" : "136924f8dd6ab0c1",
+  "name" : "test_addlock",
+  "fullName" : "main.TestTELock#test_addlock",
+  "historyId" : "bc94e1012ecedffed16714244937c526",
+  "time" : {
+    "start" : 1652968730217,
+    "stop" : 1652968744326,
+    "duration" : 14109
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1652968663289,
+      "stop" : 1652968693380,
+      "duration" : 30091
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ed10fc3f2b1b375a",
+      "name" : "Add lock",
+      "source" : "ed10fc3f2b1b375a.png",
+      "type" : "image/png",
+      "size" : 95852
+    }, {
+      "uid" : "9430ca23d24be7fe",
+      "name" : "stdout",
+      "source" : "9430ca23d24be7fe.txt",
+      "type" : "text/plain",
+      "size" : 16
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "setup::0",
+    "time" : {
+      "start" : 1652968764692,
+      "stop" : 1652968766630,
+      "duration" : 1938
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('setup')"
+  }, {
+    "name" : "suite",
+    "value" : "main"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTELock"
+  }, {
+    "name" : "host",
+    "value" : "Lenovo"
+  }, {
+    "name" : "thread",
+    "value" : "7852-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('setup')" ]
+  },
+  "source" : "136924f8dd6ab0c1.json",
+  "parameterValues" : [ ]
+}

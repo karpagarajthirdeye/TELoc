@@ -1,0 +1,8 @@
+{
+  "name":"Appium",
+  "type": "Appium",
+  "buildOrder": 1,
+  "buildName": "allure-report_TE_Lock#1",
+  "reportUrl": "http://example.org/build#1/AllureReport",
+  "reportName": "TE Lock report"
+}

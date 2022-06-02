@@ -1,0 +1,31 @@
+[ {
+  "values" : [ "Appium inspector" ],
+  "name" : "Xpath"
+}, {
+  "values" : [ "Appium" ],
+  "name" : "server"
+}, {
+  "values" : [ "Appium" ],
+  "name" : "Automated tool"
+}, {
+  "values" : [ "TE Lock" ],
+  "name" : "Project"
+}, {
+  "values" : [ "Android" ],
+  "name" : "OS"
+}, {
+  "values" : [ "Pytest" ],
+  "name" : "Test"
+}, {
+  "values" : [ "Allure" ],
+  "name" : "Reports"
+}, {
+  "values" : [ "Pycharm" ],
+  "name" : "Editor"
+}, {
+  "values" : [ "TE Lock " ],
+  "name" : "Module"
+}, {
+  "values" : [ "Data driven framework" ],
+  "name" : "Framework"
+} ]

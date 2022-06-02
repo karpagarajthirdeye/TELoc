@@ -1,0 +1,43 @@
+
+<environment>
+    <parameter>
+        <key>Module</key>
+        <value>TE Lock </value>
+    </parameter>
+    <parameter>
+        <key>Project</key>
+        <value>TE Lock</value>
+    </parameter>
+    <parameter>
+        <key>Automated tool</key>
+        <value>Appium</value>
+    </parameter>
+    <parameter>
+        <key>Editor</key>
+        <value>Pycharm</value>
+    </parameter>
+    <parameter>
+        <key>Framework</key>
+        <value>Data driven framework</value>
+    </parameter>
+    <parameter>
+        <key>Test</key>
+        <value>Pytest</value>
+    </parameter>
+    <parameter>
+        <key>Reports</key>
+        <value>Allure</value>
+    </parameter>
+    <parameter>
+        <key>server</key>
+        <value>Appium</value>
+    </parameter>
+    <parameter>
+        <key>Xpath</key>
+        <value>Appium inspector</value>
+    </parameter>
+    <parameter>
+        <key>OS</key>
+        <value>Android</value>
+    </parameter>
+</environment>

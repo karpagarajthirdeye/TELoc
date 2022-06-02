@@ -1,0 +1,91 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "main",
+    "children" : [ {
+      "name" : "TestTELock",
+      "children" : [ {
+        "name" : "test_Login",
+        "uid" : "54491e56775e0207",
+        "parentUid" : "7309e884a94e98087acd5a5beeaa00d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652969370272,
+          "stop" : 1652969395886,
+          "duration" : 25614
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_unlock",
+        "uid" : "1460b09197a20e6a",
+        "parentUid" : "7309e884a94e98087acd5a5beeaa00d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652969396233,
+          "stop" : 1652969407361,
+          "duration" : 11128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_addlock",
+        "uid" : "dfe661a405ddd889",
+        "parentUid" : "7309e884a94e98087acd5a5beeaa00d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652969407390,
+          "stop" : 1652969421700,
+          "duration" : 14310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_changelock",
+        "uid" : "79fbf592110319e5",
+        "parentUid" : "7309e884a94e98087acd5a5beeaa00d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652969421763,
+          "stop" : 1652969426931,
+          "duration" : 5168
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_virtualkey",
+        "uid" : "cb58f6d77c21ba66",
+        "parentUid" : "7309e884a94e98087acd5a5beeaa00d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652969427672,
+          "stop" : 1652969434431,
+          "duration" : 6759
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_deletelock",
+        "uid" : "226f60c1f2f71c0a",
+        "parentUid" : "7309e884a94e98087acd5a5beeaa00d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652969434680,
+          "stop" : 1652969441730,
+          "duration" : 7050
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7309e884a94e98087acd5a5beeaa00d0"
+    } ],
+    "uid" : "5f38a2f9a00fcf8535c7e431e961f40a"
+  } ]
+}
