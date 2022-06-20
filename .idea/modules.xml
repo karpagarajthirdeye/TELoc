@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/TE Lock.iml" filepath="$PROJECT_DIR$/.idea/TE Lock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TELoc.iml" filepath="$PROJECT_DIR$/.idea/TELoc.iml" />
     </modules>
   </component>
 </project>

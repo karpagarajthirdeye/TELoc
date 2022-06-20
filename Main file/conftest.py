@@ -13,12 +13,21 @@ def pytest_addoption(parser):
 def setup(request):
     global driver
     browser_name = request.config.getoption('--browser_name')
-    if browser_name == "TELock":
+    if browser_name == "Karpagaraj":
         desired_cap = {
             "appium:deviceName": "moto g(6) plus",
             "platformName": "Android",
             "appium:app": "C:\\Users\\ELCOT\\Downloads\\app-debug_Apr_22_22.apk",
             "appium:platformVersion": "9",
+            "ignoreHiddenApiPolicyError": "true"
+        }
+        driver = webdriver.Remote("http://localhost:4723/wd/hub", desired_cap)
+    elif browser_name == "Alex":
+        desired_cap = {
+            "appium:deviceName": "alex's phone",
+            "platformName": "Android",
+            "appium:app": "G:\\thirdeye\\drivers\\app-debug_Apr_22_22.apk",
+            "appium:platformVersion": "11",
             "ignoreHiddenApiPolicyError": "true"
         }
         driver = webdriver.Remote("http://localhost:4723/wd/hub", desired_cap)
