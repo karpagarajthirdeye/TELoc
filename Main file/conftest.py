@@ -5,24 +5,24 @@ driver = None
 
 def pytest_addoption(parser):
     parser.addoption(
-        "--browser_name", action="store", default="TELock"
+        "--name", action="store", default="karpagaraj"
     )
 
 
 @pytest.fixture(scope="class")
 def setup(request):
     global driver
-    browser_name = request.config.getoption('--browser_name')
-    if browser_name == "Karpagaraj":
+    name = request.config.getoption('--name')
+    if name == "Karpagaraj":
         desired_cap = {
             "appium:deviceName": "moto g(6) plus",
             "platformName": "Android",
-            "appium:app": "C:\\Users\\ELCOT\\Downloads\\app-debug_Apr_22_22.apk",
+            "appium:app": "D:\\Telock\\app-debug_Apr_3_22.apk",
             "appium:platformVersion": "9",
             "ignoreHiddenApiPolicyError": "true"
         }
         driver = webdriver.Remote("http://localhost:4723/wd/hub", desired_cap)
-    elif browser_name == "Alex":
+    elif name == "Alex":
         desired_cap = {
             "appium:deviceName": "alex's phone",
             "platformName": "Android",
