@@ -119,17 +119,7 @@ class TestTELock(Baseclass):
         time.sleep(3)
         self.driver.find_element(By.ID, "com.telocks.te:id/ivSearch").click()
         time.sleep(3)
-        Locks = self.driver.find_elements(By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView")
-        i= -1
-        for Locks1 in Locks:
-            i = i+1
-            Names=Locks1.text
-            print(Names)
-            if Names == "Gh - 1986565994":
-                time.sleep(4)
-                self.driver.find_elements(By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[@id='android:id/tex1']")[i].click()
-                time.sleep(10)
-                break
+        self.driver.find_element(By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[3]').click()
         time.sleep(3)
         allure.attach(self.driver.get_screenshot_as_png(), name="Next Lock",
                       attachment_type=AttachmentType.PNG)
