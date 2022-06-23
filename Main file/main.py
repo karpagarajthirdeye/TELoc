@@ -12,6 +12,7 @@ from utilities.baseclass import Baseclass
 
 
 class TestTELock(Baseclass):
+
     def test_Login(self):
         wait=WebDriverWait(self.driver, 5)
         wait.until(EC.presence_of_element_located((By.XPATH, "//android.widget.LinearLayout[1]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.EditText")))
@@ -75,31 +76,31 @@ class TestTELock(Baseclass):
 
 #    def test_virtualkey(self):
 #       self.driver.find_element(By.ID, "com.telocks.te:id/ivMenu").click()
-#        time.sleep(3)
-#        self.driver.find_element(By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/androidx.appcompat.widget.LinearLayoutCompat[3]/android.widget.CheckedTextView").click()
-#        time.sleep(3)
-#        self.driver.find_element(By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.EditText").send_keys("Alex")
 #       time.sleep(3)
-#        self.driver.find_element(By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.EditText").send_keys("9578261722")
-#        time.sleep(3)
-#        self.driver.find_element(By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[4]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.EditText").send_keys("herbertrajalex@gmail.com")
-#        time.sleep(3)
-#        self.driver.find_element(By.ID, "com.telocks.te:id/rbTemporary").click()
-#        time.sleep(3)
-#        self.driver.find_element(By.ID, "com.telocks.te:id/pwStartDate").click()
-#        time.sleep(3)
-#        self.driver.find_element(By.XPATH, "//android.view.View[@content-desc='30 May 2022']").click()
-#        time.sleep(3)
-#        self.driver.find_element(By.ID, "android:id/button1").click()
-#        time.sleep(3)
-#        self.driver.find_element(By.ID, "com.telocks.te:id/pwEndDate").click()
-#        time.sleep(3)
-#        self.driver.find_element(By.XPATH, "//android.view.View[@content-desc='31 May 2022']").click()
-#        time.sleep(3)
-#        self.driver.find_element(By.ID, "android:id/button1").click()
-#        time.sleep(3)
-#        self.driver.find_element(By.ID, "com.telocks.te:id/ctaAssign").click()
-#        time.sleep(3)
+#       self.driver.find_element(By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/androidx.appcompat.widget.LinearLayoutCompat[3]/android.widget.CheckedTextView").click()
+#       time.sleep(3)
+#       self.driver.find_element(By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.EditText").send_keys("Alex")
+#       time.sleep(3)
+#       self.driver.find_element(By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.EditText").send_keys("9578261722")
+#       time.sleep(3)
+#       self.driver.find_element(By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[4]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.EditText").send_keys("herbertrajalex@gmail.com")
+#       time.sleep(3)
+#       self.driver.find_element(By.ID, "com.telocks.te:id/rbTemporary").click()
+#       time.sleep(3)
+#       self.driver.find_element(By.ID, "com.telocks.te:id/pwStartDate").click()
+#       time.sleep(3)
+#       self.driver.find_element(By.XPATH, "//android.view.View[@content-desc='30 May 2022']").click()
+#       time.sleep(3)
+#       self.driver.find_element(By.ID, "android:id/button1").click()
+#       time.sleep(3)
+#       self.driver.find_element(By.ID, "com.telocks.te:id/pwEndDate").click()
+#       time.sleep(3)
+#       self.driver.find_element(By.XPATH, "//android.view.View[@content-desc='31 May 2022']").click()
+#       time.sleep(3)
+#       self.driver.find_element(By.ID, "android:id/button1").click()
+#       time.sleep(3)
+#       self.driver.find_element(By.ID, "com.telocks.te:id/ctaAssign").click()
+#       time.sleep(3)
 
     def test_myactivity(self):
         self.driver.find_element(By.ID, "com.telocks.te:id/ivGetCode").click()
@@ -125,16 +126,31 @@ class TestTELock(Baseclass):
                       attachment_type=AttachmentType.PNG)
         time.sleep(3)
 
-
-
-
-#    def test_deletelock(self):
-#
-#       self.driver.find_element(By.ID, "com.telocks.te:id/ivMenu").click()
-#      time.sleep(3)
-#     self.driver.find_element(By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/androidx.appcompat.widget.LinearLayoutCompat[8]/android.widget.CheckedTextView").click()
-    #    time.sleep(3)
-     #   self.driver.find_element(By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[6]/android.widget.LinearLayout/android.widget.RelativeLayout[3]/android.widget.LinearLayout/android.widget.ImageView[2]").click()
-      #  time.sleep(3)
-       # self.driver.find_element(By.ID, "android:id/button1").click()
+    def test_tansfer_lock(self):
+        time.sleep(3)
+        self.driver.find_element(By.ID, "com.telocks.te:id/ivMenu").click()
+        time.sleep(3)
+        self.driver.find_element(By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/androidx.appcompat.widget.LinearLayoutCompat[9]/android.widget.CheckedTextView").click()
+        time.sleep(3)
+        self.driver.find_element(By.ID, "com.telocks.te:id/ivSearch").click()
+        time.sleep(3)
+        self.driver.find_element(By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[5]').click()
+        time.sleep(3)
+        self.driver.find_element(By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout[1]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.EditText').send_keys('alex')
+        time.sleep(3)
+        self.driver.find_element(By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout[2]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.EditText').send_keys('9578261722')
+        time.sleep(3)
+        self.driver.find_element(By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout[3]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.EditText').send_keys('herbertrajalex@gmail.com')
+        time.sleep(3)
+        #self.driver.find_element(By.ID, 'com.telocks.te:id/ctaOwnerTransferProceed').click()
         #time.sleep(3)
+
+#   def test_deletelock(self):
+#       self.driver.find_element(By.ID, "com.telocks.te:id/ivMenu").click()
+#       time.sleep(3)
+#       self.driver.find_element(By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/androidx.appcompat.widget.LinearLayoutCompat[8]/android.widget.CheckedTextView").click()
+    #   time.sleep(3)
+     #  self.driver.find_element(By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[6]/android.widget.LinearLayout/android.widget.RelativeLayout[3]/android.widget.LinearLayout/android.widget.ImageView[2]").click()
+      # time.sleep(3)
+       #self.driver.find_element(By.ID, "android:id/button1").click()
+       #time.sleep(3)
