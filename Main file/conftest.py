@@ -24,11 +24,11 @@ def setup(request):
         driver = webdriver.Remote("http://localhost:4723/wd/hub", desired_cap)
     elif name == "Alex":
         desired_cap = {
-            "appium:deviceName": "alex's phone",
-            "platformName": "Android",
-            "appium:app": "G:\\thirdeye\\drivers\\app-debug_Apr_22_22.apk",
-            "appium:platformVersion": "11",
-            "ignoreHiddenApiPolicyError": "true"
+             "appium:deviceName": "Emulator",
+             "platformName": "Android",
+             "appium:app": "G:\\thirdeye\\drivers\\app-debug_Apr_22_22.apk",
+             "appium:platformVersion": "11",
+             "appium:ignoreHiddenApiPolicyError": "true"
         }
         driver = webdriver.Remote("http://localhost:4723/wd/hub", desired_cap)
     else:
